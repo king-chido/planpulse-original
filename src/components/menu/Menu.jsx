@@ -1,4 +1,4 @@
-import React from "./menu.css";
+import "./menu.css";
 
 const Menu = () => {
   return <main className="menu-container">Menu</main>;

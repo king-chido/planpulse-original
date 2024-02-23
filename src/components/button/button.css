@@ -1,5 +1,8 @@
 .btn-container{
-    width:15%;
-    height:70%;
-    border: 1px;
+    width:10%;
+    height:30px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

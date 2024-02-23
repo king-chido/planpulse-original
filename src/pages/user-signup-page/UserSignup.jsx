@@ -1,6 +1,6 @@
 import "./usersignup.css";
-import wallpaper from "../../assets/welcome2.jpg";
-import logo from "../../assets/image 6.png";
+import wallpaper from "../../assets/welcome2.png";
+import logo from "../../assets/image6.png";
 import nav from "../../assets/Vector2.png";
 
 const UserSignup = () => {

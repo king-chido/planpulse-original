@@ -1,7 +1,7 @@
-import React from "./board.css";
+import "./board.css";
 
 const Board = () => {
-  return <div>Board</div>;
+  return <main className="board-container">Board</main>;
 };
 
 export default Board;

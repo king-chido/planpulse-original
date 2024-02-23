@@ -1,5 +1,5 @@
 import "./batchupload.css";
-import logo from "../../assets/image 6.png";
+import logo from "../../assets/image6.png";
 
 const Batchupload = () => {
   return (

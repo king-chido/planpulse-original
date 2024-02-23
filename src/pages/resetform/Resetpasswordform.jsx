@@ -1,5 +1,5 @@
 import "./resetpassform.css";
-import logo from "../../assets/image 6.png";
+import logo from "../../assets/image6.png";
 import nav from "../../assets/Vector2.png";
 const Resetpasswordform = () => {
   return (
