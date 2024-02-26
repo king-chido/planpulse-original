@@ -8,7 +8,7 @@ const UserLogin = () => {
     <div className="loginbodypage">
       <div className="loginpage">
         <img src={LOG} className="image" />
-        <p className="text">Sign in by entering the information below</p>
+        <p className="textsign">Sign in by entering the information below</p>
         <div className="inputDiv">
           <div className="detail">
             <span className="span-text">Email<span style={{ color: "red" }}>*</span></span>
@@ -16,10 +16,10 @@ const UserLogin = () => {
             <span className="span-text">Password<span style={{ color: "red" }}>*</span></span>
             <input type="password" placeholder="Enter Password" className="input-data" />
           </div>
-          <div className="Remeber-text">
+          <div className="remeber-text">
             <input type="checkbox" className="checkbox" />
-            <span className="remindme">Remember Password</span>
-          </div>
+          Remember Password
+                </div>
           <div className="forgotpass">Forgot Password ?</div>
         </div>
 
