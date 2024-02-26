@@ -653,8 +653,4 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-@media screen and (max-width:320px){
-    .header{
-        
-    }
-} 
+/* @media screen and (max-width:320px){ */

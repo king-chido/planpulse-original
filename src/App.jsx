@@ -5,7 +5,7 @@ import UserLogin from "./pages/user-login-page/UserLogin";
 import Landingpage from "./pages/landing-page/Landingpage";
 import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
 import Sucessfulpassword from "./pages/sucessfullpassword/Sucessfulpassword";
-import Decisionreset from "./pages/decisionreset-page/Decisionreset";
+import Decision from "../src/pages/decisionpage/DecisionReset"
 import Sucessfultransfer from "./pages/sucessfultransferpage/Sucessfultransfer";
 import Failedtransfer from "./pages/failedtransfer/Failedtransfer";
 
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     element: <Sucessfulpassword/>
   },
   {
-    path: "/decisionreset",
-    element: <Decisionreset/>
+    path: "/decisionpage",
+    element: <Decision/>
   },
   {
     path: "/sucessfultransfer",

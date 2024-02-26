@@ -1,14 +1,11 @@
 import React from 'react';
-import "./decisionreset.css"
+import "./Decisionreset.css"
 import IMAGE from "../../assets/gymlogo.png"
 const Decisionreset = () => {
   return (
     <div>
           <div className= "wrapper">
         <div className='upping'>
-          <div className='backbtn'>
-            <button className='backward'><h1 className='arrow'>←</h1></button>
-          </div>
           <div className='pulselogo'>
             <img src= {IMAGE} />
           </div>
