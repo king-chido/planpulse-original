@@ -9,6 +9,7 @@ import Userdashboard from "./pages/user-dashboard/Userdashboard";
 import Button from "./components/button/Button";
 import Resetpasswordform from "./pages/resetform/Resetpasswordform";
 import UserSignup from "./pages/user-signup-page/UserSignup";
+import Category from "./components/category/Category";
 
 //creating my router
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/user-dashboard",
     element: <Userdashboard />,
+  },
+  {
+    path: "/category",
+    element: <Category />,
   },
 ]);
 
