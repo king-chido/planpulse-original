@@ -1,28 +1,13 @@
 
 import "./landingpage.css";
-import MAP from "../../assets/sportgirls.jpeg"
-import logo from "../../assets/gymlogo.png"
-import hero from "../../assets/database.svg"
-import fitness from "../../assets/fitness.png"
+
+import hero from "../../../assets/database.svg"
+import fitness from "../../../assets/fitness.png"
 const Landingpage = () => {
   return <div
     style={{ overflow: "hidden" }}
   >
-    <div className="header">
-      <div className="logo">
-        <img src={logo} alt="logo" />
-      </div>
-      <div className="headertext">
-        <p className="home">HOME</p>
-        <p>ABOUT</p>
-        <p>FEATURES</p>
-        <p>PRICING</p>
-        <p>SERVICE</p>
-      </div>
-      <div className="started">
-        <button className="get">GET STARTED</button>
-      </div>
-    </div>
+
     <div className="hero">
       <div className="herotext">
         <div className="maintext">
