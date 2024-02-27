@@ -2,12 +2,12 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import UserLogin from "./pages/user-login-page/UserLogin";
-import Landingpage from "./pages/landing-page/Landingpage";
 import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
 import Sucessfulpassword from "./pages/sucessfullpassword/Sucessfulpassword";
 import Decision from "../src/pages/decisionpage/DecisionReset"
 import Sucessfultransfer from "./pages/sucessfultransferpage/Sucessfultransfer";
 import Failedtransfer from "./pages/failedtransfer/Failedtransfer";
+import HomeScreen from "./pages/landing-page/HomeScreen/HomeScreen";
 
 
 //creating my router
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
  
   {
     path: "/",
-    element: <Landingpage />,
+    element: <HomeScreen />,
   },
 
   {
