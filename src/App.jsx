@@ -4,26 +4,24 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UserLogin from "./pages/user-login-page/UserLogin";
 import Landingpage from "./pages/landing-page/Landingpage";
 import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
-import Batchupload from "./pages/batchupload/Batchupload";
-import Userdashboard from "./pages/user-dashboard/Userdashboard";
-import Button from "./components/button/Button";
-import Resetpasswordform from "./pages/resetform/Resetpasswordform";
-import UserSignup from "./pages/user-signup-page/UserSignup";
-import Category from "./components/category/Category";
+import Sucessfulpassword from "./pages/sucessfullpassword/Sucessfulpassword";
+import Decision from "../src/pages/decisionpage/DecisionReset"
+import Sucessfultransfer from "./pages/sucessfultransferpage/Sucessfultransfer";
+import Failedtransfer from "./pages/failedtransfer/Failedtransfer";
+
 
 //creating my router
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Landingpage />,
-  },
+
+
   {
     path: "/user-login",
     element: <UserLogin />,
   },
+ 
   {
-    path: "/user-signup",
-    element: <UserSignup />,
+    path: "/",
+    element: <Landingpage />,
   },
 
   {
@@ -31,25 +29,21 @@ const router = createBrowserRouter([
     element: <ForgotPassword />,
   },
   {
-    path: "/btn",
-    element: <Button />,
+    path: "/sucessfullpassword",
+    element: <Sucessfulpassword/>
   },
   {
-    path: "/resetpassword-form",
-    element: <Resetpasswordform />,
+    path: "/decisionpage",
+    element: <Decision/>
   },
   {
-    path: "/batch-upload",
-    element: <Batchupload />,
+    path: "/sucessfultransfer",
+    element: <Sucessfultransfer/>
   },
   {
-    path: "/user-dashboard",
-    element: <Userdashboard />,
-  },
-  {
-    path: "/category",
-    element: <Category />,
-  },
+    path: "/failedtransfer",
+    element: <Failedtransfer/>
+  }
 ]);
 
 const App = () => {

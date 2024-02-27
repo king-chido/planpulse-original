@@ -12,8 +12,8 @@ const forgotPassword = () => {
        <p className='forgotext'>FORGOT PASSWORD ?</p>
        </div>
        <div className='forgotpassinput'>
-       <p className='entertext'>Enter the email associated<br/> 
-        with the account</p>
+       <p className='entertext'>Enter the email associated 
+with the account</p>
         <input type='email' placeholder='Input Your Email' className='emailinput'/>
        </div>
      

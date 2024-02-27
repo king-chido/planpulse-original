@@ -1,8 +1,8 @@
 
 import "./landingpage.css";
-import MAP from "../../assets/map.png"
+import MAP from "../../assets/sportgirls.jpeg"
 import logo from "../../assets/gymlogo.png"
-import hero from "../../assets/heroimage.svg"
+import hero from "../../assets/database.svg"
 import fitness from "../../assets/fitness.png"
 const Landingpage = () => {
   return <div
@@ -10,16 +10,18 @@ const Landingpage = () => {
   >
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="logo" style={{ height: "65px" }} />
+        <img src={logo} alt="logo" />
       </div>
       <div className="headertext">
-        <h3 className="home">HOME</h3>
+        <p className="home">HOME</p>
         <p>ABOUT</p>
         <p>FEATURES</p>
         <p>PRICING</p>
         <p>SERVICE</p>
       </div>
-      <div className="btn"></div>
+      <div className="started">
+        <button className="get">GET STARTED</button>
+      </div>
     </div>
     <div className="hero">
       <div className="herotext">
@@ -31,24 +33,22 @@ const Landingpage = () => {
             organization,<br /> as it is a good means to ensure consistency.</p>
         </div>
         <div className="buttonbox">
+          <button className="starting">GET STARTED</button>
+          <button className="upgrading">UPGRADE</button>
         </div>
       </div>
       <div className="heroimage">
         <div className="heropic">
-          <img src={hero} alt="img" style={{ height: "470px", width: "600px" }} />
+          <img src={hero} alt="img" style={{ height: "370px", width: "500px" }} />
         </div>
-        <div className="circles">
-          <div className="cycle">🕒</div>
-          <div className="middlecycle">📉</div>
-          <div className="endcycle">📲</div>
-        </div>
+       
 
       </div>
     </div>
     <div className="features">
       <div className="unique">
         <h1>Unique Features</h1>
-      </div>
+      </div>  
       <div className="featuring">
         <div className="firstcard">
           <div className="top">
@@ -101,7 +101,7 @@ const Landingpage = () => {
             </div>
           </div>
           <div className="bottom">
-            <h3 className="featuretext">Dynamic Database</h3>
+            <h3 className="featuretext">Upgrade System</h3>
             <div className="textHolder">
               <p className="plantrack">This is a pay system that gives
                 our users unlimited access to
@@ -116,7 +116,7 @@ const Landingpage = () => {
     </div>
     <div className="clients">
       <div className="photo">
-        <img src={fitness} alt="fitnesspic" style={{ width: "500px" }} />
+        <img src={fitness} alt="fitnesspic" style={{ width: "350px" }} />
       </div>
       <div className="writeup">
         <div className="up">
@@ -130,7 +130,9 @@ const Landingpage = () => {
             have provided all that is needed for you to <br />
             find this product very friendly.</p>
         </div>
-        <div className="below"></div>
+        <div className="below">
+        <button className="starting">GET STARTED</button>
+        </div>
       </div>
     </div>
     <div className="offer">
@@ -160,7 +162,7 @@ const Landingpage = () => {
         <div className="versionb">
           <div className="payedversion">
             <div className="topversion">
-              <h3 className="Freeversion">Payed Version</h3><span className="naira">₦0</span>
+              <h3 className="Freeversion">Payed Version</h3><span className="naira">₦50,000</span>
             </div>
             <div className="bottomversion">
               <div className="group">
@@ -171,7 +173,9 @@ const Landingpage = () => {
                 <div className="dot"></div>
                 <p>Unlimited  access to  CTA</p>
               </div>
-              <div className="btn"></div>
+              <div className="accessbtn">
+                <button className="paying">PAY</button>
+              </div>
             </div>
           </div>
         </div>
@@ -248,7 +252,17 @@ const Landingpage = () => {
           </div>
         </div>
         <div className="secondfooter">
-<img className="mapping" src={MAP}/>
+{/* <img className="mapping" src={MAP}/> */}
+<iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.1462533900512!2d3.3299647695040933!3d6.447291532219994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b897a59a1bbad%3A0x2f3f02b5749fc0c7!2s167%20Muyibi%20St%2C%20Apapa%2C%20Lagos%20102103%2C%20Lagos!5e0!3m2!1sen!2sng!4v1709043668112!5m2!1sen!2sng"
+        width='100%'
+        height='100%'
+        frameBorder='0'
+        style={{ border: 0 }}
+        allowFullScreen
+        title='Google Map'
+        className="map"
+      ></iframe>
         </div>
       </div>
      
