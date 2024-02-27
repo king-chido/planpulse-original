@@ -1,35 +1,14 @@
 
 import "./landingpage.css";
 
-import hero from "../../../assets/database.svg"
+
 import fitness from "../../../assets/fitness.png"
 const Landingpage = () => {
   return <div
     style={{ overflow: "hidden" }}
   >
 
-    <div className="hero">
-      <div className="herotext">
-        <div className="maintext">
-          <h1 className="workout">Workout with <br /><span className="plan">Plan</span></h1>
-        </div>
-        <div className="subtext">
-          <p className="integrate">We encourage you to integrate the <br /> plan method in your
-            organization,<br /> as it is a good means to ensure consistency.</p>
-        </div>
-        <div className="buttonbox">
-          <button className="starting">GET STARTED</button>
-          <button className="upgrading">UPGRADE</button>
-        </div>
-      </div>
-      <div className="heroimage">
-        <div className="heropic">
-          <img src={hero} alt="img" style={{ height: "370px", width: "500px" }} />
-        </div>
-       
 
-      </div>
-    </div>
     <div className="features">
       <div className="unique">
         <h1>Unique Features</h1>
