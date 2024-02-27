@@ -605,7 +605,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .all {
     width: 100vw;
-    height: 85%;
+    height: 100%;
     /* background-color: #b14d4d; */
     display: flex;
 }
@@ -620,10 +620,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .secondfooter{
     height: 100%;
     width: 50%;
-    /* background-color: grey; */
+    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.map{
+    height: 100%;
+    width: 100%;
 }
 .textwriteup{
     height: 60%;
